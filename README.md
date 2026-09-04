@@ -47,11 +47,10 @@ Repositori ini berisi kode sumber untuk Sistem Informasi Manajemen SDM dan Pengg
 ### 2. Langkah Setup Lokal
 
 1. **Clone Repositori**
+
    ```bash
    git clone [https://github.com/b1theaven/HR-and-Payroll.git](https://github.com/b1theaven/HR-and-Payroll.git)
    ```
-
-````
 
 2. **Import Database**
 
@@ -72,4 +71,7 @@ Tinggal kamu sesuaikan link `git clone` dan nama database SQL-nya di berkas ters
 ```
 
 ```
-````
+
+```
+
+```
