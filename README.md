@@ -67,11 +67,3 @@ Repositori ini berisi kode sumber untuk Sistem Informasi Manajemen SDM dan Pengg
 ---
 
 Tinggal kamu sesuaikan link `git clone` dan nama database SQL-nya di berkas tersebut!
-
-```
-
-```
-
-```
-
-```
