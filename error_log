@@ -1,0 +1,141 @@
+[23-Jun-2025 04:48:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sumberpe_test'@'maleo.kencang.com' to database 'sumberpe_test' in /home/sumberpe/public_html/koneksi.php on line 3
+[23-Jun-2025 04:48:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberpe/public_html/login.php on line 12
+[23-Jun-2025 04:48:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberpe/public_html/login.php on line 14
+[23-Jun-2025 04:48:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sumberpe_test'@'maleo.kencang.com' to database 'sumberpe_test' in /home/sumberpe/public_html/koneksi.php on line 3
+[23-Jun-2025 04:48:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberpe/public_html/login.php on line 12
+[23-Jun-2025 04:48:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberpe/public_html/login.php on line 14
+[29-Jun-2025 01:35:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sumberpe_test'@'maleo.kencang.com' (using password: YES) in /home/sumberpe/public_html/koneksi.php on line 3
+[29-Jun-2025 01:35:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberpe/public_html/login.php on line 12
+[29-Jun-2025 01:35:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberpe/public_html/login.php on line 14
+[29-Jun-2025 01:35:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sumberpe_test'@'maleo.kencang.com' (using password: YES) in /home/sumberpe/public_html/koneksi.php on line 3
+[29-Jun-2025 01:35:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberpe/public_html/login.php on line 12
+[29-Jun-2025 01:35:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberpe/public_html/login.php on line 14
+[29-Jun-2025 01:35:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sumberpe_test'@'maleo.kencang.com' (using password: YES) in /home/sumberpe/public_html/koneksi.php on line 3
+[29-Jun-2025 01:35:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberpe/public_html/login.php on line 12
+[29-Jun-2025 01:35:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberpe/public_html/login.php on line 14
+[29-Jun-2025 03:10:23 UTC] PHP Notice:  Undefined index: no_hp in /home/sumberpe/public_html/send_otp.php on line 2
+[29-Jun-2025 03:21:21 UTC] PHP Notice:  Undefined index: no_hp in /home/sumberpe/public_html/send_otp.php on line 2
+[29-Jun-2025 03:25:28 UTC] PHP Notice:  Undefined index: no_hp in /home/sumberpe/public_html/send_otp.php on line 2
+[29-Jun-2025 03:29:19 UTC] PHP Notice:  Undefined index: no_hp in /home/sumberpe/public_html/send_otp.php on line 2
+[29-Jun-2025 03:40:28 UTC] PHP Notice:  Undefined index: no_hp in /home/sumberpe/public_html/send_otp.php on line 2
+[29-Jun-2025 03:54:36 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[29-Jun-2025 03:54:36 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[29-Jun-2025 03:54:36 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[29-Jun-2025 03:56:49 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[29-Jun-2025 03:56:49 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[29-Jun-2025 03:56:49 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 06:06:02 UTC] PHP Warning:  require_once(/home/sumberpe/public_htmlvendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 06:06:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sumberpe/public_htmlvendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 06:11:29 UTC] PHP Warning:  require_once(/home/sumberpe/public_htmlvendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 06:11:29 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sumberpe/public_htmlvendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 06:59:13 UTC] PHP Warning:  require_once(/home/sumberpe/public_htmlvendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 06:59:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sumberpe/public_htmlvendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 07:06:13 UTC] PHP Warning:  require_once(/home/sumberpe/public_htmlvendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 07:06:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sumberpe/public_htmlvendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 07:06:22 UTC] PHP Warning:  require_once(/home/sumberpe/public_htmlvendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 07:06:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sumberpe/public_htmlvendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 07:06:34 UTC] PHP Warning:  require_once(/home/sumberpe/public_htmlvendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[30-Jun-2025 07:06:34 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sumberpe/public_htmlvendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:05:52 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:05:52 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:05:52 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:07:58 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:07:58 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:07:58 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:08:52 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:08:52 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:08:52 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:37:28 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:37:28 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:37:28 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:45:50 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:45:50 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:45:50 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:57:57 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:57:57 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[07-Jul-2025 07:57:57 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberpe/public_html/cetak_pdf.php on line 2
+[06-Aug-2025 07:46:45 UTC] PHP Notice:  Undefined index: username in /home/sumberpe/public_html/login.php on line 7
+[06-Aug-2025 07:46:45 UTC] PHP Notice:  Undefined index: password in /home/sumberpe/public_html/login.php on line 8
+[16-Aug-2025 00:23:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:23:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:24:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[16-Aug-2025 00:25:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sumberpe/public_html/index.php on line 83
+[04-Feb-2026 05:36:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sumberpe_test'@'maleo.kencang.com' (using password: YES) in /home/sumberp1/public_html/koneksi.php:3
+Stack trace:
+#0 /home/sumberp1/public_html/koneksi.php(3): mysqli_connect()
+#1 /home/sumberp1/public_html/login.php(5): include('/home/sumberp1/...')
+#2 {main}
+  thrown in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 05:38:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sumberpe_test'@'maleo.kencang.com' (using password: YES) in /home/sumberp1/public_html/koneksi.php:3
+Stack trace:
+#0 /home/sumberp1/public_html/koneksi.php(3): mysqli_connect()
+#1 /home/sumberp1/public_html/login.php(5): include('/home/sumberp1/...')
+#2 {main}
+  thrown in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 05:38:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sumberpe_test'@'maleo.kencang.com' (using password: YES) in /home/sumberp1/public_html/koneksi.php:3
+Stack trace:
+#0 /home/sumberp1/public_html/koneksi.php(3): mysqli_connect()
+#1 /home/sumberp1/public_html/login.php(5): include('/home/sumberp1/...')
+#2 {main}
+  thrown in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:27:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sumberpe_test'@'maleo.kencang.com' (using password: YES) in /home/sumberp1/public_html/koneksi.php:3
+Stack trace:
+#0 /home/sumberp1/public_html/koneksi.php(3): mysqli_connect()
+#1 /home/sumberp1/public_html/login.php(5): include('/home/sumberp1/...')
+#2 {main}
+  thrown in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:29:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sumberp1_admin'@'maleo.kencang.com' to database 'sumberp1_test' in /home/sumberp1/public_html/koneksi.php:3
+Stack trace:
+#0 /home/sumberp1/public_html/koneksi.php(3): mysqli_connect()
+#1 /home/sumberp1/public_html/login.php(5): include('/home/sumberp1/...')
+#2 {main}
+  thrown in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:30:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sumberp1_admin'@'maleo.kencang.com' to database 'sumberp1_test' in /home/sumberp1/public_html/koneksi.php:3
+Stack trace:
+#0 /home/sumberp1/public_html/koneksi.php(3): mysqli_connect()
+#1 /home/sumberp1/public_html/login.php(5): include('/home/sumberp1/...')
+#2 {main}
+  thrown in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:30:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'sumberp1_admin'@'maleo.kencang.com' to database 'sumberp1_test' in /home/sumberp1/public_html/koneksi.php:3
+Stack trace:
+#0 /home/sumberp1/public_html/koneksi.php(3): mysqli_connect()
+#1 /home/sumberp1/public_html/login.php(5): include('/home/sumberp1/...')
+#2 {main}
+  thrown in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:36:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sumberp1_admin'@'maleo.kencang.com' to database 'sumberp1_test' in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:36:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberp1/public_html/login.php on line 12
+[04-Feb-2026 07:36:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberp1/public_html/login.php on line 14
+[04-Feb-2026 07:36:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sumberp1_admin'@'maleo.kencang.com' to database 'sumberp1_test' in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:36:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberp1/public_html/login.php on line 12
+[04-Feb-2026 07:36:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberp1/public_html/login.php on line 14
+[04-Feb-2026 07:36:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sumberp1_admin'@'maleo.kencang.com' to database 'sumberp1_test' in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:36:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberp1/public_html/login.php on line 12
+[04-Feb-2026 07:36:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberp1/public_html/login.php on line 14
+[04-Feb-2026 07:37:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sumberp1_admin'@'maleo.kencang.com' to database 'sumberp1_test' in /home/sumberp1/public_html/koneksi.php on line 3
+[04-Feb-2026 07:37:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/sumberp1/public_html/login.php on line 12
+[04-Feb-2026 07:37:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sumberp1/public_html/login.php on line 14
+[11-Mar-2026 05:06:59 UTC] PHP Notice:  Undefined index: username in /home/sumberp1/public_html/login.php on line 7
+[11-Mar-2026 05:06:59 UTC] PHP Notice:  Undefined index: password in /home/sumberp1/public_html/login.php on line 8
+[18-Jun-2026 04:06:22 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberp1/public_html/cetak_pdf.php on line 2
+[18-Jun-2026 04:06:22 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberp1/public_html/cetak_pdf.php on line 2
+[18-Jun-2026 04:06:22 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberp1/public_html/cetak_pdf.php on line 2
+[18-Jun-2026 04:07:25 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberp1/public_html/cetak_pdf.php on line 2
+[18-Jun-2026 04:07:25 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/sumberp1/public_html/cetak_pdf.php on line 2
+[18-Jun-2026 04:07:25 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/sumberp1/public_html/cetak_pdf.php on line 2
