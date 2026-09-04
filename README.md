@@ -1,94 +1,75 @@
-# Product Requirement Document (PRD): 3D PC Building Simulator (Static Room)
+# Web Admin - Sistem Informasi SDM & Payroll (PT. Sumber Pelita Sukses)
 
-## 1. Project Overview
-
-- **Project Name:** PC Assembly Simulator Lite
-- **Platform Target:** PC (Windows / Standalone)
-- **Engine:** Unity (Universal Render Pipeline - URP)
-- **Goal:** A 3D interactive application simulating step-by-step PC hardware assembly with detailed mechanics (cables, screws, zoom interaction) in a fixed/static room environment.
+Repositori ini berisi kode sumber untuk Sistem Informasi Manajemen SDM dan Penggajian (_Payroll_) berbasis web pada **PT. Sumber Pelita Sukses**. Dashboard admin ini berfungsi sebagai pusat kendali data karyawan, pemrosesan persetujuan (_approval_) permohonan cuti dan lembur, serta rekapitulasi laporan penggajian perusahaan.
 
 ---
 
----
+## 🚀 Fitur Utama
 
-## 2. Core Features & Scope
+### 1. Manajemen Data Karyawan
 
-1. **Static Environment:**
+- **CRUD Data Karyawan:** Pengelolaan data identitas lengkap (NIK, No. KTP, No. Rekening, Bagian, Jabatan, Status Kerja, dll.).
+- **Import & Search:** Fitur pencarian cepat dan impor data karyawan secara massal menggunakan berkas Excel.
+- **Laporan Cetak:** Ekspor rekapitulasi data karyawan lengkap ke format PDF (mode Landscape A4).
 
-- Player cannot freely walk around (_no FPS movement_).
-- Fixed workbench/desk environment inside a bedroom setting.
-- Orbital & Zoom-based camera focused on the PC case / workbench.
+### 2. Pengelolaan Pengajuan Cuti & Lembur
 
-2. **Camera Controls:**
+- **Panel Approval:** Verifikasi permohonan cuti dan tambahan lembur karyawan dengan status _Pending_, _Diterima_, dan _Ditolak_.
+- **Verifikasi Bukti Digital:** Peninjauan berkas bukti surat keterangan (Sakit, Hamil, Haid, Haji/Umrah, dan Cuti Penting) yang diunggah karyawan.
+- **Alasan Penolakan:** Form input alasan resmi dari admin jika pengajuan ditolak.
+- **Rekap Laporan:** Cetak rekapitulasi pengajuan cuti dan lembur berdasarkan filter status (_Pending_, _Diterima_, _Ditolak_).
 
-- Left-click + Drag: Orbit camera around the PC case.
-- Mouse Scroll: Zoom in / Zoom out to inspect components closely (RAM, CPU, Cables, Screws).
-- Focus Mode: Double-click a component or socket to center the camera on it.
+### 3. Penggajian & Slip Gaji (Payroll)
 
-3. **Detailed Assembly System:**
-
-- **Component Dependency Logic:** Components must be installed in logical order (e.g., CPU must be placed before CPU Cooler; Motherboard screws must be installed before GPU).
-- **Screwing Mechanics:** Click-and-hold or click interaction to tighten/loosen screws for Case Covers, Motherboard, PSU, and Expansion Slots.
-- **Cabling Mechanics:** Connect 2-pin / 4-pin / 8-pin / 24-pin power and SATA cables from PSU/Motherboard to target components.
-- **Boot Check:** A "Power On" button to verify if all required components, screws, and power cables are properly connected.
-
-4. **Component List (Initial Core Assets):**
-
-- PC Case (with removable side panels and screws)
-- Motherboard (with CPU latch, RAM slots, PCIe slots)
-- CPU & CPU Fan / Cooler
-- RAM Sticks (2x)
-- GPU / Graphics Card
-- Storage: 2.5" SSD and 3.5" HDD
-- Power Supply Unit (PSU) + Cable Harness
-- Case Fans (Front/Rear)
+- **Komponen Gaji Lengkap:** Kalkulasi Gaji Pokok, Tunjangan (Jabatan, Skill, Bagian, Kehadiran), Uang Makan, serta Potongan (Absensi, BPJS Ketenagakerjaan, BPJS Kesehatan, Pensiun, PPh 21, dan COS).
+- **Take Home Pay (THP):** Perhitungan otomatis total gaji bersih yang diterima karyawan.
+- **Rekapitulasi Penggajian:** Cetak laporan rekap gaji bulanan per periode (Bulan/Tahun) yang dilengkapi ringkasan total pengeluaran payroll perusahaan.
 
 ---
 
-## 3. Asset & Visual Instructions for Antigravity
+## 🛠️ Stack Teknologi
 
-> **Important:** The developer/AI must generate initial 3D models procedurally using Unity primitives (`GameObject.CreatePrimitive`) or custom mesh generation scripts with distinct materials/colors for functional identification.
+- **Language:** PHP (Native)
+- **Database:** MySQL / MariaDB
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap, jQuery
+- **Reporting:** Native Browser Print-to-PDF Engine
 
-```text
-[Procedural Asset Guidelines]
-- PC Case: Rectangular Mesh, dark gray material, semi-transparent side panel.
-- Motherboard: Flat green/black rectangle with distinct colored sockets (Blue for RAM, Red for PCIe).
-- CPU: Small square plate with a top metallic latch object.
-- RAM/GPU: Rectangular boards with bottom connector pins.
-- Screws: Small cylindrical objects with a distinct metallic texture/color.
-- Cables: LineRenderer components with snap points on sockets.
+---
+
+## ⚙️ Panduan Instalasi & Konfigurasi
+
+### 1. Persyaratan Sistem
+
+- Web Server (Apache / Nginx / XAMPP / cPanel)
+- PHP versi 7.4 atau yang lebih baru
+- Database Server MySQL / MariaDB
+
+### 2. Langkah Setup Lokal
+
+1. **Clone Repositori**
+   ```bash
+   git clone [https://github.com/b1theaven/HR-and-Payroll.git](https://github.com/b1theaven/HR-and-Payroll.git)
+   ```
+
+````
+
+2. **Import Database**
+
+- Buat database baru di MySQL (misal: `test_db`).
+- Impor berkas database SQL yang tersedia ke dalam phpMyAdmin/MySQL.
+
+3. **Konfigurasi Koneksi Database**
+   Buka berkas `koneksi.php` dan sesuaikan kredensial server Anda.
+
+4. **Jalankan Aplikasi**
+   Pindahkan folder proyek ke direktori web server Anda (`htdocs` / `www`), lalu akses melalui browser:
+   `http://localhost/NAMA-FOLDER/`
+
+---
+
+Tinggal kamu sesuaikan link `git clone` dan nama database SQL-nya di berkas tersebut!
 
 ```
 
----
-
-## 4. Technical Requirements & Architecture
-
-1. **Interaction System:**
-
-- Use Unity's **New Input System** or standard Raycasting for selecting objects.
-- Implement a `SnapPoint` script for target sockets (CPU Socket, RAM Slots, Cable Ports).
-
-2. **State Machine / Manager:**
-
-- `AssemblyManager.cs`: Controls component installation states, dependency validation, and PC Boot-up check.
-- `CameraController.cs`: Handles orbit, pan, clamp-zoom boundaries, and smooth focusing.
-- `CableManager.cs`: Uses `LineRenderer` or simple procedural Splines to connect point A (PSU/MB) to point B (Target Component).
-
-3. **UI / HUD Requirements:**
-
-- Inventory/Part Selector Panel (Bottom UI) to select parts to install.
-- Tool Switcher UI: Toggle between "Hand Mode" (Parts), "Screwdriver Mode" (Screws), and "Cable Mode" (Wiring).
-- Status Overlay: Indicates missing connections when trying to power on.
-
----
-
-## 5. Definition of Done (MVP Criteria)
-
-- [ ] Camera smoothly orbits and zooms in on specific parts of the PC case without clipping into geometry.
-- [ ] Player can attach and remove at least Motherboard, CPU, RAM, GPU, PSU, and 1 Drive.
-- [ ] Screws must be fastened to secure the Motherboard and PSU in place.
-- [ ] Power cables must be connected to Motherboard (24-pin), CPU (8-pin), and GPU (6/8-pin).
-- [ ] Pressing the Power Button triggers a "Success / Booted" visual indicator if all connections are valid.
-
----
+```
+````
